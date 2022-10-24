@@ -1,1 +1,11 @@
+@use "global" as *;
+
 // トップページのstyleを記述
+.test {
+  @include mq("md") {
+    font-size: 10px;
+  }
+  @include mq("md") {
+    font-weight: bold;
+  }
+}
