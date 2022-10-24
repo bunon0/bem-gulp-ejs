@@ -1,0 +1,13 @@
+@use "global/" as g;
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 g.rem(g.strip-unit(g.$padding-sp));
+  background-color: #ddd;
+
+  @include g.mq("md") {
+    max-width: calc(g.$container + g.$padding-pc * 2);
+    padding: 0 g.rem(g.strip-unit(g.$padding-pc));
+  }
+}

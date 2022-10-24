@@ -1,0 +1,15 @@
+@use "global/" as g;
+
+.sp-hidden {
+  display: none;
+  @include g.mq("md") {
+    display: initial;
+  }
+}
+
+.pc-hidden {
+  display: initial;
+  @include g.mq("md") {
+    display: none;
+  }
+}

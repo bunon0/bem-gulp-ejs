@@ -1,0 +1,15 @@
+<% let pageId = "home" ;%>
+
+<!DOCTYPE html>
+<html lang="ja">
+  <%- include("component/_head.ejs",{pageId: pageId})%>
+  <body>
+    <%- include("component/_header.ejs", {pageId: pageId})%>
+    <main>
+      <div class="container">
+        <h2>トップページ</h2>
+      </div>
+    </main>
+    <%- include("component/_footer.ejs") %>
+  </body>
+</html>
