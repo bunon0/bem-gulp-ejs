@@ -1,5 +1,5 @@
-@use "global/" as g;
+@use "global" as *;
 
 .project {
-  font-size: g.rem(30);
+  font-size: rem(30);
 }
