@@ -4,7 +4,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 rem(strip-unit($padding-sp));
-  background-color: #ddd;
+  background-color: gainsboro;
 
   @include mq("md") {
     max-width: calc($container + $padding-pc * 2);
